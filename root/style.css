@@ -88,6 +88,7 @@ footer {
     font-size: 10px;
     display: flex;
     justify-content: right;
+    font-weight: bold;
         }
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
 
@@ -118,11 +119,12 @@ footer {
       /* Fotos galeria */
       .imgsgallery {
         display: grid;
-        grid-template-columns:repeat(4, 250px);
-        grid-template-rows: repeat(4, 250px);
+        grid-template-columns:repeat(4, 200px);
+        grid-template-rows: repeat(4, 200px);
         column-gap: 50px;
         row-gap: 50px;
         justify-content: center;
+        padding-right: 100px;
         }
 
         /* Formulario de contacto */
@@ -212,6 +214,7 @@ footer {
             }
 
             .footerBold {
+                color: #3d0e1f;
                 font-weight: bold;
-                color: #521b2f;
+                font-size: 10px;
             }
