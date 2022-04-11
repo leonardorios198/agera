@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(6, 260px);
+    padding: 10px;
+
+  }
+  .one {
+  
+    background-color: blueviolet;
+  }
+  .two {
+   
+    background-color: aqua;
+  }
+  .three {
+   
+    background-color: darkgreen;
+  }
+  .four {
+    
+    background-color: blue;
+  }
+  .five {
+   
+    background-color: coral;
+  }
+  .six {
+   
+    background-color: darkblue;
+  }
+  
