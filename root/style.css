@@ -36,7 +36,6 @@
             grid-template-columns: 100%;
             grid-template-rows: repeat(4, 1fr);
         }
-    }
 
     .paddingMargin {
         padding: 5px;
@@ -98,7 +97,6 @@ footer {
         background-color: #D9B8C4;
     }
 
-    }
     @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
     h1 {
         text-align: center;
