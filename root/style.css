@@ -103,7 +103,7 @@ footer {
         text-align: center;
           font-size: 30px;
           font-weight: bold;
-          font-family: "Lobster"
+          font-family: 'Roboto Slab', serif;
       }
     
       #mapa {
@@ -115,6 +115,7 @@ footer {
           text-decoration: none;
       }
 
+      @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
     
       /* Fotos galeria */
       .imgsgallery {
