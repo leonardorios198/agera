@@ -121,6 +121,8 @@ footer {
           font-size: 30px;
           font-weight: bold;
           font-family: 'Roboto Slab', serif;
+          animation-duration: 1500ms;
+          animation-name: animation2;
       }
     
       #mapa {
@@ -128,6 +130,19 @@ footer {
         justify-content: center;
       }
     
+      @keyframes animation2 {
+        from {
+          margin-right: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-right: 0%;
+          width: 100%;
+        }
+      }
+      }
+
       .headerTextDecoration {
           text-decoration: none;
       }
