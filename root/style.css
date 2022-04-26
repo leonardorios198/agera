@@ -43,6 +43,7 @@
         .lema {
             text-align: center;
             padding: 20px;
+            font-family: 'Dancing Script', handwriting;
         }
 
         .containerHistoria {
@@ -93,8 +94,10 @@
         height: 100px;
         justify-content: center;
         font-weight: bold;
-        font-family: 'Lobster'
+        font-family: 'Dancing Script', handwriting;
     }
+
+    @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100;200;300;400;500;600;700&display=swap);
 
 footer {
     display: contents;
@@ -233,3 +236,6 @@ footer {
                 font-weight: bold;
                 font-size: 10px;
             }
+
+            
+            
