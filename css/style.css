@@ -82,9 +82,7 @@
     .backroundImage {
         background-image: url(/img/backroundImg.jpeg);
 }
-
     @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
-
     /* Subtitulo */
     #lema {
         color: #D9B8C4;
@@ -96,9 +94,7 @@
         font-weight: bold;
         font-family: 'Dancing Script', handwriting;
     }
-
     @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100;200;300;400;500;600;700&display=swap);
-
 footer {
     display: contents;
     color: rgb(117, 52, 112);
@@ -108,8 +104,6 @@ footer {
     font-weight: bold;
         }
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
-
-
          /* Color de fondo */
     .bodyBackroundColor {
         background-color: #D9B8C4;
@@ -141,14 +135,10 @@ footer {
           width: 100%;
         }
       }
-      }
-
       .headerTextDecoration {
           text-decoration: none;
       }
-
       @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
-    
       /* Fotos galeria */
       .imgsgallery {
         display: grid;
@@ -159,13 +149,11 @@ footer {
         justify-content: center;
         padding-right: 100px;
         }
-
         /* Formulario de contacto */
         #form {
             display: flex;
             justify-content: center;
         }
-
         .icono {
             padding-left: 50px;
             display: grid;
@@ -178,7 +166,6 @@ footer {
             width: 100px;
             height: 100px;
         }
-
         form {
             width: 500px;
             height: 200px;
@@ -186,14 +173,11 @@ footer {
             border-radius: 3px;
             margin: 0 auto;
         }
-
         input, textarea {
             border: 0px;
             outline: none;
         }
-
         @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
-        
         .linksSocial {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -204,28 +188,22 @@ footer {
             padding-left: 240px;
             text-decoration: none;
         }
-
         .colorLinks {
             color: rgb(49, 49, 49);
 
         }
-
         .colorNav {
             color: #521b2f;
             font-weight: bold;
         }
-
-       
             header {
                 
                 padding: 11px;
             }
-
             :link :hover :visited :active {
                 text-decoration: none;
                 color: #000000;
             }
-
             #titleGaleria {
                 text-align: center;
                 font-size: 18px;
