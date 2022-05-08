@@ -5,7 +5,34 @@
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
-@media screen and (min-width 768px) {
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+@media screen and (min-width: 768px) {
   .imgsgallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -32,6 +59,8 @@
   font-size: 80px;
   animation-duration: 3s;
   animation-name: slidein;
+  height: 300px;
+  justify-content: center;
 }
 
 @keyframes slidein {
@@ -66,21 +95,6 @@
   padding: 0;
 }
 
-/* Titulo */
-.title {
-  align-items: center;
-  font-family: "Playfair Display", serif;
-  background-color: #D9B8C4;
-  opacity: 0.4;
-  display: flex;
-  height: 300px;
-  justify-content: center;
-  font-weight: bold;
-  color: #5f2c46;
-  font-size: 85px;
-  font-family: "Yeseva One";
-}
-
 .backroundImage {
   background-image: url(/img/backroundImg.jpeg);
 }
@@ -100,7 +114,7 @@
 footer {
   display: contents;
   color: rgb(117, 52, 112);
-  font-size: 10px;
+  font-size: 80px;
   display: flex;
   justify-content: right;
   font-weight: bold;
@@ -227,7 +241,7 @@ header {
   font-size: 18px;
 }
 
-.backroundGradientUbicacion {
+.backroundGradientGaleria, .backroundGradientUbicacion {
   background: rgb(217, 184, 196);
   background: linear-gradient(90deg, rgb(217, 184, 196) 5%, rgb(95, 44, 70) 100%);
 }

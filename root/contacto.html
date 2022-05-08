@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- KeyWords -->
+    <meta name="keywords" content="pub, montevideo, bar, uruguay, pool">
+    <!-- Description -->
+    <meta name="description" content="contacto agera">
     <title>Contacto</title>
     <link rel="icon" href="/img/favicon2.png">
 </head>
 <body class="bodyBackroundColor">
     <link rel="stylesheet" href="/css/style.css">
-    <header class="">
-        <nav class="navbar navbar-expand-lg navbar-light bg-body">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5f2c46;"> 
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">Inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,35 +33,33 @@
             </div>
           </nav>
     </header>
-    <div id="titleContacto">
+    <!-- Title -->
+    <div class="titleS">
         <h1>Nuestras Redes Sociales</h1>
     </div>
+    <!-- Redes Sociales -->
     <div class="linksSocial">
-    <img src="/img/facebook.png" alt="Facebook" class="iconoResize">
-    <img src="/img/whatsapp.png" alt="Whatsapp" class="iconoResize">
-    <img src="/img/instagram (1).png" alt="Instagram" class="iconoResize">
-    <a href="https://www.facebook.com/Vintage-Pool-Pub-435929763432991/" class="colorLinks"> Facebook </a>
-    <a href="https://web.whatsapp.com" class="colorLinks">+59893335481</a>
-    <a href="https://www.instagram.com/vintagepool/?hl=es" class="colorLinks">Instagram</a>
+   
+<a href="https://wa.me/+5989407065"><img src="/img/whatsapp.png" class="iconoResize" alt="Whatsapp"></a>
+<a href="https://www.facebook.com/Vintage-Pool-Pub-435929763432991/?_rdr"><img src="/img/facebook.png" class="iconoResize" alt="Facebook"></a>
+<a href="https://www.instagram.com/vintagepool/?hl=es"><img src="/img/instagram (1).png" class="iconoResize" alt="Instagram"></a>
     </div>
     <!-- Formulario de contacto -->
-    <section id="form">
-    <form action="">
-        <fieldset>
-<legend>Contactanos</legend>
-<div>Nombre</div>
-<input type="text" name="Nombre" id="Nombre">
-<div>E-mail</div>
-<input type="text" name="E-mail" id="email">
-<div>Mensaje</div>
-<textarea name="Mensaje" id="Mensaje" cols="25" rows="10"></textarea>
-<br>
-<input type="submit" name="Enviar" id="enviar">
-<input type="reset" name="Resetear formulario" id="reset">   
-</select>
-        </fieldset>
-    </form>
-</section>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <input type="submit" name="Enviar" id="enviar">
+<input type="reset" name="Resetear formulario" id="reset">
+<!-- Footer -->
 <div class="footerContacto">
     <footer>Todos los derechos reservados - Leonardo Ríos</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
